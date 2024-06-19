@@ -10,7 +10,7 @@
     }
   },
   "postAttachCommand": {
-    "server": "mkdir -p ~/.streamlit && echo -e '[theme]\nbase="light"' > ~/.streamlit/config.toml && streamlit run streamlit_app.py --server.enableCORS false --server.enableXsrfProtection false"
+    "server": "streamlit run streamlit_app.py --server.enableCORS false --server.enableXsrfProtection false --theme.base=light"
   },
   "portsAttributes": {
     "8501": {
