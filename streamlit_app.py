@@ -3,6 +3,10 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
+# please do not sort hehe
+
+st.image("./images/partners.png", use_column_width=True)
+
 """
 # MigAI, czyli tłumaczenie języka migowego
 
